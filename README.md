@@ -256,13 +256,13 @@ five films' and is called out in that film's `pd_caveat`.
 
 Re-running `make_placeholder_clips.sh` would overwrite these with
 synthetic placeholders again — it's kept for adding new films quickly
-before their real clip is sourced, not for the ten that already have
-one.
+before their real clip is sourced, not for the thirteen that already
+have one.
 
 ### Commentary generation
 
 `data/films.json`'s commentary was hand-written in the style/length
-target (45-65 words, ~15-20 second read) that the real pipeline should
+target (45-65 words, ~20 second read) that the real pipeline should
 produce. `scripts/generate_commentary.py` is that real pipeline: given
 a film's metadata and scene description, it calls the Claude API for a
 commentary paragraph, and can write results back into `films.json`
