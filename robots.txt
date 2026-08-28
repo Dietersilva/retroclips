@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://retroclips.vercel.app/sitemap.xml
+Sitemap: https://retroclips.org/sitemap.xml
